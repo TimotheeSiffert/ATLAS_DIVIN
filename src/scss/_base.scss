@@ -12,3 +12,27 @@ img,
 video {
   display: block;
 }
+
+html {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey: #bcbfc3;
+  --color-dark-grey: #515050;
+  --color-blue: #279ef8;
+  --color-yellow: #f8af27;
+  --color-green: #12965d;
+  --color-red: #f82727;
+  --font-caesar: "Caesar Dressing", sans-serif;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
