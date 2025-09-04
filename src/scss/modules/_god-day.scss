@@ -1,0 +1,48 @@
+.god-day {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 2px solid var(--Text-main, #515050);
+  margin-bottom: 32px;
+}
+
+.section-legend {
+  color: var(--color-dark-grey);
+  font-family: "Caesar Dressing";
+}
+
+.god-title {
+  color: var(--color-dark-grey);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+}
+
+.god-function {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+}
+
+.god-text {
+  color: var(--color-dark-grey);
+  font-family: var(--font-bubbler);
+  font-size: 20px;
+}
+
+.more {
+  color: var(--color-dark-grey);
+  font-family: var(--font-bubbler);
+  font-size: 20px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 17.5%;
+  text-underline-position: from-font;
+}
+
+.section-more {
+  display: flex;
+  justify-content: space-around;
+}

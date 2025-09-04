@@ -1,0 +1,31 @@
+.article-description {
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.god-article {
+  border-radius: 8px;
+  border: 2px solid var(--color-blue);
+  background: var(--color-white);
+}
+
+.pantheon-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pantheon {
+  color: var(--color-dark-grey);
+  font-family: var(--font-bubbler);
+  font-size: 20px;
+}
+
+.god-type {
+  color: var(--color-dark-grey);
+  font-family: var(--font-bubbler);
+  font-size: 16px;
+}
