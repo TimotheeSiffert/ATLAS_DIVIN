@@ -44,5 +44,11 @@
 
 .section-more {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.god-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }

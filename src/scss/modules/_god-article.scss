@@ -10,12 +10,14 @@
   border-radius: 8px;
   border: 2px solid var(--color-blue);
   background: var(--color-white);
+  overflow: hidden;
 }
 
 .pantheon-name {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+  margin-bottom: 10px;
 }
 
 .pantheon {
@@ -32,11 +34,27 @@
 
 .god-name-blue {
   padding: 8px 12px;
-  background: var(--Background, #8c4444);
+  background: var(--color-white);
   max-width: fit-content;
 }
 
 .save {
   width: 24px;
   height: 24px;
+  position: absolute;
+}
+
+.god-name-blue {
+  color: var(--color-blue);
+  font-family: var(--font-caesar);
+  font-size: 20px;
+  position: absolute;
+}
+
+.god-image {
+  width: 100%;
+}
+
+.article-image {
+  display: flex;
 }
