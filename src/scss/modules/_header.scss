@@ -7,7 +7,7 @@
 .header {
   display: flex;
   height: 89px;
-  padding: 20px 12px;
+  padding: 20px 80px;
   justify-content: space-between;
   align-items: center;
   background: var(--color-grey);
@@ -16,5 +16,10 @@
 @media screen and (min-width: 992px) {
   .burger-menu {
     display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 20px 12px;
   }
 }
