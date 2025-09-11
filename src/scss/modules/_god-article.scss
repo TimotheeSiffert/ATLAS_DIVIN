@@ -6,11 +6,12 @@
   gap: 10px;
 }
 
-.god-article {
+.god-article-blue {
   border-radius: 8px;
   border: 2px solid var(--color-blue);
   background: var(--color-white);
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .pantheon-name {
@@ -32,29 +33,95 @@
   font-size: 16px;
 }
 
-.god-name-blue {
-  padding: 8px 12px;
-  background: var(--color-white);
-  max-width: fit-content;
-}
-
 .save {
   width: 24px;
   height: 24px;
   position: absolute;
-}
-
-.god-name-blue {
-  color: var(--color-blue);
-  font-family: var(--font-caesar);
-  font-size: 20px;
-  position: absolute;
+  right: 4%;
+  top: 4%;
 }
 
 .god-image {
   width: 100%;
 }
+.god-name-blue {
+  color: var(--color-blue);
+  font-family: var(--font-caesar);
+  font-size: 20px;
+  position: absolute;
+  padding: 8px 12px;
+  background: var(--color-white);
+  max-width: fit-content;
+  bottom: 0;
+}
+
+.image {
+  position: relative;
+}
 
 .article-image {
   display: flex;
+}
+
+.pantheon-sign {
+  width: 24px;
+  height: 21.034px;
+  aspect-ratio: 24/21.03;
+}
+
+.god-name-red {
+  color: var(--color-red);
+  font-family: var(--font-caesar);
+  font-size: 20px;
+  position: absolute;
+  padding: 8px 12px;
+  background: var(--color-white);
+  max-width: fit-content;
+  bottom: 0;
+}
+
+.god-article-red {
+  border-radius: 8px;
+  border: 2px solid var(--color-red);
+  background: var(--color-white);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.god-name-yellow {
+  color: var(--color-yellow);
+  font-family: var(--font-caesar);
+  font-size: 20px;
+  position: absolute;
+  padding: 8px 12px;
+  background: var(--color-white);
+  max-width: fit-content;
+  bottom: 0;
+}
+
+.god-article-yellow {
+  border-radius: 8px;
+  border: 2px solid var(--color-yellow);
+  background: var(--color-white);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.god-name-green {
+  color: var(--color-green);
+  font-family: var(--font-caesar);
+  font-size: 20px;
+  position: absolute;
+  padding: 8px 12px;
+  background: var(--color-white);
+  max-width: fit-content;
+  bottom: 0;
+}
+
+.god-article-green {
+  border-radius: 8px;
+  border: 2px solid var(--color-green);
+  background: var(--color-white);
+  overflow: hidden;
+  margin-bottom: 20px;
 }
