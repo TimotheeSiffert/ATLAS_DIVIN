@@ -111,6 +111,12 @@ html[data-theme="dark"] {
   .onglet-menu {
     color: var(--color-white);
   }
+  .burger-menu {
+    color: var(--color-white);
+  }
+  .dark-mode-menu {
+    stroke: var(--color-white);
+  }
 }
 
 // .row + .row {
