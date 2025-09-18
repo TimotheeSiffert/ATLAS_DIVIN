@@ -105,6 +105,12 @@ html[data-theme="dark"] {
   .dark-mode-footer-icons {
     fill: var(--color-white);
   }
+  .menu {
+    background-color: #696a6c;
+  }
+  .onglet-menu {
+    color: var(--color-white);
+  }
 }
 
 // .row + .row {
