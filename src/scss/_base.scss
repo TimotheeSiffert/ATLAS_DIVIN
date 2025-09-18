@@ -26,6 +26,9 @@ html {
   --font-bubbler: "Bubbler One", sans-serif;
 }
 
+html[data-theme="dark"] {
+}
+
 // .row + .row {
 //   margin-top: 16px;
 // }
@@ -37,3 +40,11 @@ html {
 //   background-color: rgba(86, 61, 124, 0.15);
 //   border: 1px solid rgba(86, 61, 124, 0.2);
 // }
+
+html[data-theme="light"] .toggle-button-light {
+  display: none;
+}
+
+html[data-theme="dark"] .toggle-button-dark {
+  display: none;
+}

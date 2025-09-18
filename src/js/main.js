@@ -6,3 +6,18 @@ function toggleMenu() {
 }
 
 burger.addEventListener("click", toggleMenu);
+
+const darkModeButton = document.querySelector(".toggle-button-dark");
+const lightModeButton = document.querySelector(".toggle-button-light");
+
+function toggleDarkModeBtn() {
+  document.querySelector("html").setAttribute("data-theme", "dark");
+}
+
+darkModeButton.addEventListener("click", toggleDarkModeBtn);
+
+function toggleLightModeBtn() {
+  document.querySelector("html").setAttribute("data-theme", "light");
+}
+
+lightModeButton.addEventListener("click", toggleLightModeBtn);
